@@ -6,6 +6,52 @@ Recycles the meme images in a directory into reformatted memes.
 
 Memes can come in all shapes and sizes: 
 
-But sometimes we want to keep a simple format to our memes
+
+
+
+
+
+
+
+
+
+<img src="./docs/old_memes.jpg" width="1080px" alt="">
+
+
+
+
+
+
+
+
+
+
+
+But sometimes it is nice to keep a simple format:
+
+
+
+
+
+
+
+
+
+
+
+<img src="./docs/new_memes.jpg" width="1080px" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
