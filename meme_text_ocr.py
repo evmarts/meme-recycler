@@ -53,5 +53,5 @@ def image_to_string(image):
 def meme_text_ocr_main(filename):
 	image = Image.open(filename)
 	text = image_to_string(image)
-	text = text.replace('\n',' ')
+	text = text.replace('\n',' ').lower()
 	return text
