@@ -20,7 +20,8 @@ But sometimes it is nice to keep a simple format:
 
 ### meme-recycler.py
 
-1.
+**Step 1:** 
+
 Crops the meme into its two components:
 
 ~~~
@@ -39,7 +40,8 @@ pic components:
 
 <img src="./figs/meme0_pic.jpg" width="200" alt=""><img src="./figs/meme1_pic.jpg" width="200" alt=""><img src="./figs/meme2_pic.jpg" width="200" alt="">
 
-2.
+**Step 2:** 
+
 Reconizes the text component as a string:
 
 ~~~
@@ -49,7 +51,8 @@ Got text of meme1_text.jpg
 Got text of meme2_text.jpg
 ~~~
 
-3.
+**Step 3:**
+
 Creates new memes:
 
 ~~~
