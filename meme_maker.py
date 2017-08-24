@@ -99,4 +99,4 @@ def meme_maker_main(text, image_path):
 	box = [abs((content_bbox[0] - max_demision))/2, abs((content_bbox[1] - max_demision)/2)]
 	background.paste(canvas, box=box, mask=None)
 	background.resize((width,height))
-	background.save(image_path.replace("_pic","").replace("recyclable-memes/pic/", "recycled-memes/"))
+	background.save(image_path.replace("_pic","").replace("in/pic/", "out/"))

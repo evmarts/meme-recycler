@@ -17,7 +17,7 @@ def crop_memes(paths):
 	print "Cropping images..."
 	for path in paths:
 		if is_img(path):
-			meme_cropper_main("recyclable-memes/" + str(path))
+			meme_cropper_main("in/" + str(path))
 			print "cropped " + str(path)
 	return 0
 
@@ -36,7 +36,7 @@ def get_texts(text_images):
 	texts = []
 	for text_image in text_images:
 		if is_img(text_image):
-			texts.append(meme_text_ocr_main("recyclable-memes/text/" + str(text_image)))
+			texts.append(meme_text_ocr_main("in/text/" + str(text_image)))
 			print "Got text of " + str(text_image)
 	return texts
 
@@ -44,16 +44,16 @@ def get_texts(text_images):
 def make_memes(meme_tuples):
 	print "Constructing images..."
 	for meme_tuple in meme_tuples:
-		meme_maker_main(meme_tuple[0], "../meme-recycler/recyclable-memes/pic/" + str(meme_tuple[1]))
+		meme_maker_main(meme_tuple[0], "../meme-recycler/in/pic/" + str(meme_tuple[1]))
 		print "Created new meme image: " + str(meme_tuple[1]).replace("_pic","")
 	print "Done!"
 
 def main():
-	paths = os.listdir("../meme-recycler/recyclable-memes")			
+	paths = os.listdir("../meme-recycler/in")			
 	crop_memes(paths)
-	text_images = os.listdir("../meme-recycler/recyclable-memes/text")
+	text_images = os.listdir("../meme-recycler/in/text")
 	texts = get_texts(text_images)
-	files = os.listdir("../meme-recycler/recyclable-memes/pic")
+	files = os.listdir("../meme-recycler/in/pic")
 	pic_paths = get_pic_paths(files)
 	meme_tuples = zip(texts, pic_paths)
 	make_memes(meme_tuples)
