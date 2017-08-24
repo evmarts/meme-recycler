@@ -1,6 +1,6 @@
 # meme-recycler
 
-Recycles the meme images in a directory into reformatted memes.
+Reformats a directory of memes.
 
 This project uses code from three previous projects:
 
@@ -12,7 +12,6 @@ This project uses code from three previous projects:
 
 Memes can come in all shapes and sizes: 
 
-
 <img src="./figs/old_memes.jpg" width="1080px" alt="">
 
 But sometimes it is nice to keep a simple format:
@@ -21,6 +20,7 @@ But sometimes it is nice to keep a simple format:
 
 ### meme-recycler.py
 
+1.
 Crops the meme into its two components:
 
 ~~~
@@ -39,6 +39,7 @@ pic components:
 
 <img src="./figs/meme0_pic.jpg" width="200" alt=""><img src="./figs/meme1_pic.jpg" width="200" alt=""><img src="./figs/meme2_pic.jpg" width="200" alt="">
 
+2.
 Reconizes the text component as a string:
 
 ~~~
@@ -48,6 +49,7 @@ Got text of meme1_text.jpg
 Got text of meme2_text.jpg
 ~~~
 
+3.
 Creates new memes:
 
 ~~~
