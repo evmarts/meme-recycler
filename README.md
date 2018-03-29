@@ -10,7 +10,7 @@ This project combines the functionality of three other projects of mine:
 
 2. [Partitioning Twitter Memes](https://evmarts.github.io/blog/2017/08/12/meme-cropper/)
 
-3. [Automated Twitter Memes]()
+3. [Automated Twitter Memes](https://evmarts.github.io/blog/2017/08/03/meme-maker/)
 
 ## Motivation:
 
