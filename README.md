@@ -1,6 +1,6 @@
 # meme-recycler
 
-The goal of this project is to take an image of meme and output a reformatted image of the meme. 
+The goal of this project is to take an image of meme and output a reformatted image of same the meme. 
 
 ## Notes
 
