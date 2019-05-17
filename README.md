@@ -14,7 +14,7 @@ This project combines the functionality of three other projects of mine:
 
 ## Motivation:
 
-Suppose we have bulk-downloaded some memes: 
+Suppose we have downloaded some memes: 
 
 <img src="./figs/sample0.jpg" width="128px" alt=""><img src="./figs/sample1.jpg" width="128px" alt=""><img src="./figs/sample2.jpg" width="128px" alt=""><img src="./figs/sample3.jpg" width="128px" alt=""><img src="./figs/sample4.jpg" width="128px" alt=""><img src="./figs/sample5.jpg" width="128px" alt="">
 
